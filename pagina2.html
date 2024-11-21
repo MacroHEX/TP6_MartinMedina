@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/pagina2.css">
+    <title>Página Principal</title>
+</head>
+<body>
+<div class="main-container">
+    <h1>Bienvenido a la Página Principal</h1>
+    <p id="welcomeMessage"></p>
+    <label for="userName">Ingresa tu nombre:</label>
+    <input type="text" id="userName" placeholder="Tu nombre">
+    <button id="submitName">Aceptar</button>
+    <p id="greeting"></p>
+    <h2>Descripción de las páginas:</h2>
+    <ul>
+        <li><strong>Página 3:</strong> Formulario para ingresar datos personales.</li>
+        <li><strong>Página 4:</strong> Formulario para enviar un mensaje largo.</li>
+        <li><strong>Página 1:</strong> Regresar al inicio (logout).</li>
+    </ul>
+    <div class="buttons-container">
+        <button onclick="window.location.href='pagina3.html'">Formulario Datos Personales</button>
+        <button onclick="window.location.href='pagina4.html'">Formulario Mensaje Largo</button>
+        <button onclick="window.location.href='index.html'">Cerrar Sesión</button>
+    </div>
+</div>
+<script src="js/pagina2.js"></script>
+</body>
+</html>
